@@ -1,35 +1,21 @@
-# pymongo-api
+
+# Задания 2,3,4
 
 ## Как запустить
 
-Запускаем mongodb и приложение
+Для запуска приложения с кластером mongodb и одним инстансом redis, 
+в каталоге sharding-repl-cache запускаем команду:
 
 ```shell
 docker compose up -d
 ```
 
-Заполняем mongodb данными
+Конфигурируем и заполняем mongodb данными
 
 ```shell
-./scripts/mongo-init.sh
+./scripts/init.sh
 ```
 
-## Как проверить
+# Задания 1,5,6
 
-### Если вы запускаете проект на локальной машине
-
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+https://drive.google.com/file/d/1lejh5GR_7ytSYHhWbXaKYtO4FxTyfvcF/view?usp=drivesdk
